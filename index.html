@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Food Application</title>
+</head>
+<body> 
+    <!-- Logo -->
+<nav class="navbar-custom">
+    <h1 class="text-3xl font-bold">Food<span class="text-yellow-500">Fun</span></h1>
+
+    <div id="nav-links">
+        <a href="#home" class="font-bold hover:text-yellow-500 transition">Home</a>
+        <a href="#menu" class="font-bold hover:text-yellow-500 transition">Menu</a>
+        <a href="#contact" class="font-bold hover:text-yellow-500 transition">Contact Us</a>
+    </div>
+
+    <button class="menu-btn border-2 border-black px-6 py-2 rounded-full font-bold hover:bg-yellow-500 hover:text-white duration-300 hover:border-none">
+        Go to Menu
+    </button>
+</nav>
+
+<section class="flex items-center justify-between px-16 py-20 bg-transparent">
+    <div class="w-1/2">
+        <h1 class="text-5xl font-bold leading-tight mb-6 mt-20">
+            Order Your Favourite Food Easily
+        </h1>
+        <p class="text-gray-800 font-medium text-lg mb-8 leading-relaxed">
+         We deliver 100% organic and fresh food. You can<br> order right now!
+        </p>
+        <button class="bg-yellow-500 text-white px-6 py-3 rounded-full font-bold text-lg hover:bg-yellow-600 transition shadow-lg">
+            Our Menu →
+        </button>
+
+        <div class="flex flex-wrap justify-between gap-8 mt-12">
+            <div class="flex gap-3 items-center">
+                <span class="text-2xl">🛒</span>
+                <p class="text-sm font-semibold leading-snug text-gray-600">Select your favourite <br>food and order</p>
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <span class="text-2xl text-gray-500">📍</span>
+                <p class="text-sm font-semibold leading-snug text-gray-600">Select your receiving <br>place</p>
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <span class="text-2xl">🚚</span>
+                <p class="text-sm font-semibold leading-snug text-gray-600">Get your food within<br>01 - 02 hours</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1/2 flex justify-end">
+        <img src="images/image2.png" alt="Fresh Salad" class="max-w-full h-auto">
+    </div>
+</section>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+

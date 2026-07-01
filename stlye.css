@@ -1,0 +1,74 @@
+/* 1. Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 2. Navbar Styling */
+.navbar-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    width: 100%;
+    z-index: 50;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* 3. Responsive Breakpoints */
+
+/* Desktop Version (Top) */
+@media (min-width: 769px) {
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* Mobile Version (Bottom) */
+@media (max-width: 768px) {
+    body {
+        background-image: none; 
+        padding-bottom: 70px;   
+    }
+
+    .navbar-custom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid #e5e7eb;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .navbar-custom h1, .menu-btn {
+        display: none;
+    }
+
+    #nav-links {
+        gap: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
