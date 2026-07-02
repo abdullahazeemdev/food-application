@@ -1,14 +1,13 @@
 // console.log("js running------>")
 
-const menu = document.querySelectorAll(".menu");
+const menu = document.getElementById("menu")
 
 // console.log(menu);
 
-menu.forEach((item) => {
-    item.addEventListener("click", () =>{
-      window.location.href = "login/index.html";
-    })
+menu.addEventListener("click", () =>{
+      window.location.href = "Menu/index.html";
+})
         
     
-        
-    })
+      
+
