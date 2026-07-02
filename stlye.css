@@ -1,6 +1,4 @@
-/* =========================
-   Global Reset
-========================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-x: hidden;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 img {
@@ -23,9 +20,8 @@ img {
     height: auto;
 }
 
-/* =========================
-   Navbar
-========================= */
+   /* Navbar */
+
 
 .navbar-custom {
     position: fixed;
