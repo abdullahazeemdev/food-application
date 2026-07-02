@@ -40,6 +40,26 @@ img {
     z-index: 1000;
 }
 
+.logo-oo {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.logo-oo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 47px;
+  height: 30px;
+  border: 3px solid #facc15;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
 #nav-links {
     display: flex;
     gap: 35px;
@@ -54,6 +74,23 @@ img {
 #nav-links a:hover {
     color: #f59e0b;
 }
+
+.login-singup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+
+
+.login{
+     font-weight: bold;
+     background-color: #fff;
+     padding: 10px 25px;
+     border-radius: 30px;
+     
+}
+
 
 /* =========================
    Hero Section

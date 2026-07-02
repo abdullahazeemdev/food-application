@@ -1,0 +1,73 @@
+const menuData = [
+  // ================== Breakfast ==================
+  { name: "Halwa Puri", category: "Breakfast", price: "Rs. 450", image: "https://placehold.co/400x300?text=Halwa+Puri" },
+  { name: "Aloo Paratha", category: "Breakfast", price: "Rs. 280", image: "https://placehold.co/400x300?text=Aloo+Paratha" },
+  { name: "Cheese Omelette", category: "Breakfast", price: "Rs. 320", image: "https://placehold.co/400x300?text=Cheese+Omelette" },
+  { name: "French Toast", category: "Breakfast", price: "Rs. 350", image: "https://placehold.co/400x300?text=French+Toast" },
+  { name: "Pancakes", category: "Breakfast", price: "Rs. 400", image: "https://placehold.co/400x300?text=Pancakes" },
+  { name: "Chicken Sandwich", category: "Breakfast", price: "Rs. 380", image: "https://placehold.co/400x300?text=Chicken+Sandwich" },
+  { name: "Club Sandwich", category: "Breakfast", price: "Rs. 450", image: "https://placehold.co/400x300?text=Club+Sandwich" },
+  { name: "Nihari", category: "Breakfast", price: "Rs. 650", image:" https://placehold.co/400x300?text=Nihari" },
+  { name: "Chana Masala", category: "Breakfast", price: "Rs. 250", image: "https://placehold.co/400x300?text=Chana+Masala" },
+  { name: "Desi Breakfast", category: "Breakfast", price: "Rs. 750", image: "https://placehold.co/400x300?text=Desi+Breakfast" },
+
+  // ================== Lunch ==================
+  { name: "Chicken Biryani", category: "Lunch", price: "Rs. 550", image: "https://placehold.co/400x300?text=Chicken+Biryani" },
+  { name: "Beef Biryani", category: "Lunch", price: "Rs. 650", image: "https://placehold.co/400x300?text=Beef+Biryani" },
+  { name: "Chicken Karahi", category: "Lunch", price: "Rs. 950", image: "https://placehold.co/400x300?text=Chicken+Karahi"},
+  { name: "Mutton Karahi", category: "Lunch", price: "Rs. 1450", image: "https://placehold.co/400x300?text=Mutton+Karahi" },
+  { name: "Chicken Handi", category: "Lunch", price: "Rs. 990", image: "https://placehold.co/400x300?text=Chicken+Handi" },
+  { name: "White Chicken", category: "Lunch", price: "Rs. 1100", image: "https://placehold.co/400x300?text=White+Chicken" },
+  { name: "Chicken Pulao", category: "Lunch", price: "Rs. 450", image: "https://placehold.co/400x300?text=Chicken+Pulao" },
+  { name: "Chicken Qorma", category: "Lunch", price: "Rs. 850", image: "https://placehold.co/400x300?text=Chicken+Qorma" },
+  { name: "Dal Chawal", category: "Lunch", price: "Rs. 300", image: "https://placehold.co/400x300?text=Dal+Chawal" },
+  { name: "Chicken Tikka", category: "Lunch", price: "Rs. 420", image: "https://placehold.co/400x300?text=Chicken+Tikka" },
+
+  // ================== Drinks ==================
+ { name: "Coca Cola", category: "Drinks", price: "Rs. 120", image: "https://placehold.co/400x300?text=Coca+Cola" },
+{ name: "Pepsi", category: "Drinks", price: "Rs. 120", image: "https://placehold.co/400x300?text=Pepsi" },
+{ name: "7UP", category: "Drinks", price: "Rs. 120", image: "https://placehold.co/400x300?text=7UP" },
+{ name: "Mint Margarita", category: "Drinks", price: "Rs. 280", image: "https://placehold.co/400x300?text=Mint+Margarita" },
+{ name: "Lemonade", category: "Drinks", price: "Rs. 250", image: "https://placehold.co/400x300?text=Lemonade" },
+{ name: "Mango Shake", category: "Drinks", price: "Rs. 350", image: "https://placehold.co/400x300?text=Mango+Shake" },
+{ name: "Chocolate Shake", category: "Drinks", price: "Rs. 380", image: "https://placehold.co/400x300?text=Chocolate+Shake" },
+{ name: "Fresh Orange Juice", category: "Drinks", price: "Rs. 300", image: "https://placehold.co/400x300?text=Fresh+Orange+Juice" },
+{ name: "Cold Coffee", category: "Drinks", price: "Rs. 350", image: "https://placehold.co/400x300?text=Cold+Coffee" },
+{ name: "Mineral Water", category: "Drinks", price: "Rs. 80", image: "https://placehold.co/400x300?text=Mineral+Water" },
+
+  // ================== Dinner ==================
+{ name: "BBQ Steak", category: "Dinner", price: "Rs. 1600", image: "https://placehold.co/400x300?text=BBQ+Steak" },
+{ name: "Grilled Chicken", category: "Dinner", price: "Rs. 850", image: "https://placehold.co/400x300?text=Grilled+Chicken" },
+{ name: "Chicken Alfredo Pasta", category: "Dinner", price: "Rs. 950", image: "https://placehold.co/400x300?text=Chicken+Alfredo+Pasta" },
+{ name: "Chicken Lasagna", category: "Dinner", price: "Rs. 900", image: "https://placehold.co/400x300?text=Chicken+Lasagna" },
+{ name: "Zinger Burger", category: "Dinner", price: "Rs. 550", image: "https://placehold.co/400x300?text=Zinger+Burger" },
+{ name: "Beef Burger", category: "Dinner", price: "Rs. 680", image: "https://placehold.co/400x300?text=Beef+Burger" },
+{ name: "Chicken Pizza", category: "Dinner", price: "Rs. 1400", image: "https://placehold.co/400x300?text=Chicken+Pizza" },
+{ name: "Fajita Pizza", category: "Dinner", price: "Rs. 1500", image: "https://placehold.co/400x300?text=Fajita+Pizza" },
+{ name: "Chicken Chow Mein", category: "Dinner", price: "Rs. 750", image: "https://placehold.co/400x300?text=Chicken+Chow+Mein" },
+{ name: "Chicken Fried Rice", category: "Dinner", price: "Rs. 700", image: "https://placehold.co/400x300?text=Chicken+Fried+Rice" },
+ 
+// ================== Dessert ==================
+{ name: "Chocolate Cake", category: "Dessert", price: "Rs. 450", image: "https://placehold.co/400x300?text=Chocolate+Cake" },
+{ name: "Cheesecake", category: "Dessert", price: "Rs. 550", image: "https://placehold.co/400x300?text=Cheesecake" },
+{ name: "Brownie", category: "Dessert", price: "Rs. 350", image: "https://placehold.co/400x300?text=Brownie" },
+{ name: "Ice Cream", category: "Dessert", price: "Rs. 250", image: "https://placehold.co/400x300?text=Ice+Cream" },
+{ name: "Gulab Jamun", category: "Dessert", price: "Rs. 220", image: "https://placehold.co/400x300?text=Gulab+Jamun" },
+{ name: "Kheer", category: "Dessert", price: "Rs. 280", image: "https://placehold.co/400x300?text=Kheer" },
+{ name: "Ras Malai", category: "Dessert", price: "Rs. 320", image: "https://placehold.co/400x300?text=Ras+Malai" },
+{ name: "Kunafa", category: "Dessert", price: "Rs. 650", image: "https://placehold.co/400x300?text=Kunafa" },
+{ name: "Donut", category: "Dessert", price: "Rs. 180", image: "https://placehold.co/400x300?text=Donut" },
+{ name: "Macaron", category: "Dessert", price: "Rs. 450", image: "https://placehold.co/400x300?text=Macaron" },
+  
+// ================== Salad ==================
+{ name: "Caesar Salad", category: "Salad", price: "Rs. 450", image: "https://placehold.co/400x300?text=Caesar+Salad" },
+{ name: "Greek Salad", category: "Salad", price: "Rs. 420", image: "https://placehold.co/400x300?text=Greek+Salad" },
+{ name: "Chicken Salad", category: "Salad", price: "Rs. 520", image: "https://placehold.co/400x300?text=Chicken+Salad" },
+{ name: "Russian Salad", category: "Salad", price: "Rs. 380", image: "https://placehold.co/400x300?text=Russian+Salad" },
+{ name: "Garden Salad", category: "Salad", price: "Rs. 350", image: "https://placehold.co/400x300?text=Garden+Salad" },
+{ name: "Fruit Salad", category: "Salad", price: "Rs. 300", image: "https://placehold.co/400x300?text=Fruit+Salad" },
+{ name: "Pasta Salad", category: "Salad", price: "Rs. 480", image: "https://placehold.co/400x300?text=Pasta+Salad" },
+{ name: "Coleslaw", category: "Salad", price: "Rs. 250", image: "https://placehold.co/400x300?text=Coleslaw" },
+{ name: "Tuna Salad", category: "Salad", price: "Rs. 650", image: "https://placehold.co/400x300?text=Tuna+Salad" },
+{ name: "Avocado Salad", category: "Salad", price: "Rs. 750", image: "https://placehold.co/400x300?text=Avocado+Salad" },
+];

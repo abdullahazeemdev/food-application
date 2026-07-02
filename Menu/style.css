@@ -1,0 +1,19 @@
+.logo-oo {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.logo-oo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 47px;
+  height: 30px;
+  border: 3px solid #facc15;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+}

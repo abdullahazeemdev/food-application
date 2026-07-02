@@ -6,7 +6,7 @@ const menu = document.querySelectorAll(".menu");
 
 menu.forEach((item) => {
     item.addEventListener("click", () =>{
-      window.location.href = "Menu/index.html";
+      window.location.href = "login/index.html";
     })
         
     
