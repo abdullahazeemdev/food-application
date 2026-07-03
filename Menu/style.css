@@ -1,19 +1,35 @@
 .logo-oo {
   position: relative;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .logo-oo::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -5px;
+  bottom: -0.25em;
   transform: translateX(-50%);
-  width: 47px;
-  height: 30px;
-  border: 3px solid #facc15;
+  width: 1.3em;
+  height: 0.8em;
+  border: 0.12em solid #facc15;
   border-top: none;
   border-left-color: transparent;
   border-right-color: transparent;
   border-radius: 50%;
+}
+@media (max-width: 640px) {
+  .logo-oo::after {
+    width: 35px;
+    height: 22px;
+    border-width: 2px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo-oo::after {
+    width: 1em;
+    height: 0.6em;
+    border-width: 0.08em;
+    bottom: -0.15em;
+  }
 }

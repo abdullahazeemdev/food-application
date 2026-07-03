@@ -177,4 +177,19 @@ section {
     .hero-text{
         order: 2;
     }
+    .singup{
+        padding: 2px 6px;
+        border: none;
+        font-weight: bold;
+    }
+    .singup:hover{
+        padding: 2px 6px;
+    }
+    .login{
+         padding: 2px 6px;
+    }
+
+    .login-singup{
+        gap:4px
+    }
 }
