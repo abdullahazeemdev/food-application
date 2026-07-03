@@ -2,7 +2,7 @@ const menuData = [
   // ================== Breakfast ==================
   { 
   name: "Halwa Puri",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 450",
   image: "https://media.istockphoto.com/id/502759669/photo/halwa-puri-breakfast.jpg?s=612x612&w=0&k=20&c=pAVZBHulOXX7o3HOXgmRQAGsTFJuoAL3UbZirxLnpJg=",
   description: "Traditional Pakistani breakfast with fluffy puri, sweet halwa, and spicy chickpeas."
@@ -10,7 +10,7 @@ const menuData = [
 
 {
   name: "Aloo Paratha",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 280",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROv6MaNZQaa8gqgH4XqpO1ZyBszdy_HJXoCwetZZCGn5ugU9YyfkDFwcQh&s=10",
   description: "Crispy flatbread stuffed with flavorful mashed potatoes and spices."
@@ -18,7 +18,7 @@ const menuData = [
 
 {
   name: "Cheese Omelette",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 320",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4-TaJ2pmfK5ricCq3yx4iC6pCD3_8Dvp1Li9BySvyQ&s",
   description: "Fluffy eggs filled with melted cheese and cooked to perfection."
@@ -26,7 +26,7 @@ const menuData = [
 
 {
   name: "French Toast",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 350",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqOKSTk3OTVnIOgb_gEXZJ2ALM8y00LkYicTTytT5ttHAgi3pT69SkGU&s=10",
   description: "Golden toasted bread dipped in egg mixture and lightly sweetened."
@@ -34,7 +34,7 @@ const menuData = [
 
 {
   name: "Pancakes",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 400",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSU_WVvspgbmrUr6UK_rYh2SQ0BdBzgDV23ilJz_3lBo_U6gNgpKjsQQ0f&s=10",
   description: "Soft and fluffy pancakes served with syrup and butter."
@@ -42,7 +42,7 @@ const menuData = [
 
 {
   name: "Chicken Sandwich",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 380",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9agOHzTODABEiVoaksVKy7YlnnEtWSCTmCrV5lvABC0jPXWFoltvZcKXc&s=10",
   description: "Grilled chicken with fresh vegetables and creamy mayo in toasted bread."
@@ -50,7 +50,7 @@ const menuData = [
 
 {
   name: "Club Sandwich",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 450",
   image: "https://t4.ftcdn.net/jpg/07/07/16/29/360_F_707162908_rOMRnjEBt8AKe2vY5EqLv8r0gKAunxOn.jpg",
   description: "Triple-layer sandwich loaded with chicken, egg, vegetables, and cheese."
@@ -58,7 +58,7 @@ const menuData = [
 
 {
   name: "Nihari",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 650",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWIq9ntyWgJbNTBW5sJa_2NdRhrTES07PgyBd4Ek-QoTqKskiByn77mskh&s=10",
   description: "Slow-cooked spicy beef stew served with naan for a rich breakfast."
@@ -66,7 +66,7 @@ const menuData = [
 
 {
   name: "Chana Masala",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 250",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjS6YIM6lVS023LYK8tx1aECAI16f4zkFsUascs1WAkPlvAvu330R-BM&s=10",
   description: "Classic chickpea curry cooked with aromatic spices and herbs."
@@ -74,7 +74,7 @@ const menuData = [
 
 {
   name: "Desi Breakfast",
-  category: "Breakfast",
+  category: "breakfast",
   price: "Rs. 750",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLKYRTzbIjLJSV1bd_fu9ujiC-beRoL5WRiYFb-UvzmBnwyrWgcHDDXk&s=10",
   description: "A complete breakfast platter with paratha, omelette, halwa, and tea."
@@ -246,7 +246,7 @@ const menuData = [
   name: "BBQ Steak",
   category: "Dinner",
   price: "Rs. 1600",
-  image: "https://placehold.co/400x300?text=BBQ+Steak",
+  image: "https://www.shutterstock.com/image-photo/rustic-wooden-board-showcases-array-260nw-2530685063.jpg",
   description: "Juicy grilled steak seasoned with smoky BBQ flavors."
 },
 
@@ -254,7 +254,7 @@ const menuData = [
   name: "Grilled Chicken",
   category: "Dinner",
   price: "Rs. 850",
-  image: "https://placehold.co/400x300?text=Grilled+Chicken",
+  image: "https://thumbs.dreamstime.com/b/grill-chicken-legs-grilled-chicken-legs-bbq-sesame-parsley-tomato-95526623.jpg",
   description: "Tender grilled chicken served with herbs and vegetables."
 },
 
@@ -262,7 +262,7 @@ const menuData = [
   name: "Chicken Alfredo Pasta",
   category: "Dinner",
   price: "Rs. 950",
-  image: "https://placehold.co/400x300?text=Chicken+Alfredo+Pasta",
+  image: "https://gimmedelicious.com/wp-content/uploads/2024/10/Skinny-Chicken-Broccoli-Alfredo.jpg",
   description: "Creamy Alfredo pasta tossed with juicy grilled chicken."
 },
 
@@ -270,7 +270,7 @@ const menuData = [
   name: "Chicken Lasagna",
   category: "Dinner",
   price: "Rs. 900",
-  image: "https://placehold.co/400x300?text=Chicken+Lasagna",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfoy2vVaffQaYa3m-sN83ETeHOrzrpwp1EIGB3NkK4JwGeNWBenqKt3KP&s=10",
   description: "Layers of pasta, chicken, cheese, and rich tomato sauce."
 },
 
@@ -278,7 +278,7 @@ const menuData = [
   name: "Zinger Burger",
   category: "Dinner",
   price: "Rs. 550",
-  image: "https://placehold.co/400x300?text=Zinger+Burger",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8onWP5i2F1qtWmujPMyuw5XQZcGyBCO6SYb22z9JeJ_mOXaXPi3t5X-zw&s=10",
   description: "Crispy spicy chicken fillet served in a soft burger bun."
 },
 
@@ -286,7 +286,7 @@ const menuData = [
   name: "Beef Burger",
   category: "Dinner",
   price: "Rs. 680",
-  image: "https://placehold.co/400x300?text=Beef+Burger",
+  image: "https://media.istockphoto.com/id/2061716709/photo/grilled-rib-burger.jpg?s=612x612&w=0&k=20&c=QS37W9zjBE3GoOeR8ay3k_DS7oXPH07MBg-WHY5Joac=",
   description: "Juicy beef patty layered with cheese and fresh vegetables."
 },
 
@@ -294,7 +294,7 @@ const menuData = [
   name: "Chicken Pizza",
   category: "Dinner",
   price: "Rs. 1400",
-  image: "https://placehold.co/400x300?text=Chicken+Pizza",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAxpQSMisY0Zaj0v2TGYhwfMyoYj_pTggnSN7BZERazo6WDRrTRKrWY8&s=10",
   description: "Cheesy pizza topped with seasoned chicken and vegetables."
 },
 
@@ -302,7 +302,7 @@ const menuData = [
   name: "Fajita Pizza",
   category: "Dinner",
   price: "Rs. 1500",
-  image: "https://placehold.co/400x300?text=Fajita+Pizza",
+  image: "https://somebodyfeedseb.com/wp-content/uploads/2025/06/Square-2025.04.17-Chicken-fajita-pizza-9574.jpg",
   description: "Loaded pizza with fajita chicken, onions, and capsicum."
 },
 
@@ -310,7 +310,7 @@ const menuData = [
   name: "Chicken Chow Mein",
   category: "Dinner",
   price: "Rs. 750",
-  image: "https://placehold.co/400x300?text=Chicken+Chow+Mein",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnXFJtj3cXL-irsWlMnNqPi89nicrLGdMuDAvUOS1KXwzJzgaB7bfF5fA&s=10",
   description: "Stir-fried noodles with chicken and fresh vegetables."
 },
 
@@ -318,7 +318,7 @@ const menuData = [
   name: "Chicken Fried Rice",
   category: "Dinner",
   price: "Rs. 700",
-  image: "https://placehold.co/400x300?text=Chicken+Fried+Rice",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-5axYGqE8PBSY_VTnGjLQG1RZC213soo_lVg_rknfR84wl-p9hm6PI0&s=10",
   description: "Classic fried rice cooked with chicken, vegetables, and soy sauce."
 },
 
@@ -327,7 +327,7 @@ const menuData = [
   name: "Chocolate Cake",
   category: "Dessert",
   price: "Rs. 450",
-  image: "https://placehold.co/400x300?text=Chocolate+Cake",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQetkiViDgBAKtTgpBoBkNiocgX2sTsQqtodjvTnrX524B4eQ0ZYWy8M&s=10",
   description: "Moist chocolate cake layered with rich chocolate frosting."
 },
 
@@ -335,7 +335,7 @@ const menuData = [
   name: "Cheesecake",
   category: "Dessert",
   price: "Rs. 550",
-  image: "https://placehold.co/400x300?text=Cheesecake",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP7dOe79zqoPo5kSV2hg6HJsVGHO3ss8_Iq14U369m3h8Q0b397RfoAIA&s=10",
   description: "Creamy baked cheesecake with a buttery biscuit base."
 },
 
@@ -343,7 +343,7 @@ const menuData = [
   name: "Brownie",
   category: "Dessert",
   price: "Rs. 350",
-  image: "https://placehold.co/400x300?text=Brownie",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkMQchpACyzWud0ucbKpTa4i3YWvHiHDWoYrOMMxCUA-rFJvQZXR9lWib&s=10",
   description: "Soft chocolate brownie with a rich fudgy center."
 },
 
@@ -351,7 +351,7 @@ const menuData = [
   name: "Ice Cream",
   category: "Dessert",
   price: "Rs. 250",
-  image: "https://placehold.co/400x300?text=Ice+Cream",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXy5Py5BWiiG2h2x04UCwW2LUrE97aL2ut4bmlCrH46g&s",
   description: "Creamy frozen dessert available in delicious flavors."
 },
 
@@ -359,7 +359,7 @@ const menuData = [
   name: "Gulab Jamun",
   category: "Dessert",
   price: "Rs. 220",
-  image: "https://placehold.co/400x300?text=Gulab+Jamun",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkiEZFfbgDaqgpM5YleUxN61m9duQN029zCaALb65wdSKe_i_7U1JhIs&s=10",
   description: "Soft milk dumplings soaked in sweet sugar syrup."
 },
 
@@ -367,7 +367,7 @@ const menuData = [
   name: "Kheer",
   category: "Dessert",
   price: "Rs. 280",
-  image: "https://placehold.co/400x300?text=Kheer",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDaw3Jy5vBPsJzkdzkp8f_eP-RhJdsZX2pYSdllEDWkHoDxH6kPXzFpUgv&s=10",
   description: "Traditional rice pudding cooked with milk and cardamom."
 },
 
@@ -375,7 +375,7 @@ const menuData = [
   name: "Ras Malai",
   category: "Dessert",
   price: "Rs. 320",
-  image: "https://placehold.co/400x300?text=Ras+Malai",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ocD3Ml4AnzEmWstqL7YUqYqCSvm1vF9DQRNgrd90YhAbRfjespSJOSVS&s=10",
   description: "Soft cheese patties served in sweet creamy milk."
 },
 
@@ -383,7 +383,7 @@ const menuData = [
   name: "Kunafa",
   category: "Dessert",
   price: "Rs. 650",
-  image: "https://placehold.co/400x300?text=Kunafa",
+  image: "https://i.ytimg.com/vi/zR4DkPdTSdY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC3waig9sDGlQA0xZQ02mo4TxFrQg",
   description: "Middle Eastern dessert with crispy pastry and melted cheese."
 },
 
@@ -391,7 +391,7 @@ const menuData = [
   name: "Donut",
   category: "Dessert",
   price: "Rs. 180",
-  image: "https://placehold.co/400x300?text=Donut",
+  image: "https://media.istockphoto.com/id/1753975566/photo/assorted-donuts-with-chocolate-frosting-topping-sprinkles-donuts-colorful-variety-and-variety.jpg?s=612x612&w=0&k=20&c=04sCKJRzDL9rVfnuB0dgHedcl7T2jRrYbX28Y1G_dVk=",
   description: "Soft glazed donut with a sweet and fluffy texture."
 },
 
@@ -399,7 +399,7 @@ const menuData = [
   name: "Macaron",
   category: "Dessert",
   price: "Rs. 450",
-  image: "https://placehold.co/400x300?text=Macaron",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46NSu12BSZ_UAFXgEZwHqbOTxQrG2r--mu_2hzAy2aNgGdFCiQxvCO_tx&s=10",
   description: "Delicate French cookies with creamy flavored filling."
 },
 
@@ -408,7 +408,7 @@ const menuData = [
   name: "Caesar Salad",
   category: "Salad",
   price: "Rs. 450",
-  image: "https://placehold.co/400x300?text=Caesar+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kdy4srkH4cGEMCxjNQTMYt6oZWOldKiK2OhvS504TQIAL8uVxReXiBg&s=10",
   description: "Fresh lettuce tossed with Caesar dressing, cheese, and croutons."
 },
 
@@ -416,7 +416,7 @@ const menuData = [
   name: "Greek Salad",
   category: "Salad",
   price: "Rs. 420",
-  image: "https://placehold.co/400x300?text=Greek+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGoDGyd8FoPafK7MdTJXiOR7kef-eFwTuoWeSZSqN8FwlHRYhc19WbuI&s=10",
   description: "Healthy salad with tomatoes, cucumbers, olives, and feta cheese."
 },
 
@@ -424,7 +424,7 @@ const menuData = [
   name: "Chicken Salad",
   category: "Salad",
   price: "Rs. 520",
-  image: "https://placehold.co/400x300?text=Chicken+Salad",
+  image: "https://media.istockphoto.com/id/671436910/photo/homemade-healthy-chicken-salad.jpg?s=612x612&w=0&k=20&c=7GEz3p4Nwvqi9hZkfpU7iM_UDi6h4emt9trfHqZLG4k=",
   description: "Fresh vegetables topped with grilled chicken and dressing."
 },
 
@@ -432,7 +432,7 @@ const menuData = [
   name: "Russian Salad",
   category: "Salad",
   price: "Rs. 380",
-  image: "https://placehold.co/400x300?text=Russian+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBCEOatdc7YYwCm9kTyjzGbHY3n9ZmC93prRE6lF3Bo5hAmRykvkH2b4&s=10",
   description: "Creamy mixed vegetable salad with mayonnaise dressing."
 },
 
@@ -440,7 +440,7 @@ const menuData = [
   name: "Garden Salad",
   category: "Salad",
   price: "Rs. 350",
-  image: "https://placehold.co/400x300?text=Garden+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThTA156S8LABbFFZjGoIB0eoKiqWOCjeMRY9uxe13xgJahypmFzyBK-34&s=10",
   description: "Fresh seasonal vegetables served with light dressing."
 },
 
@@ -448,7 +448,7 @@ const menuData = [
   name: "Fruit Salad",
   category: "Salad",
   price: "Rs. 300",
-  image: "https://placehold.co/400x300?text=Fruit+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6omrlSrwJAP3MHWBaGizk3uweggWBE81c_Qjv3DuId02m_4zy1rjLIE&s=10",
   description: "A colorful mix of fresh seasonal fruits."
 },
 
@@ -456,7 +456,7 @@ const menuData = [
   name: "Pasta Salad",
   category: "Salad",
   price: "Rs. 480",
-  image: "https://placehold.co/400x300?text=Pasta+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbK696yteJ2c7c1JIXHtb5wLjLKnm-wBEYLZspHQpKJaF6H1G-kwrzGZsN&s=10",
   description: "Cold pasta tossed with vegetables and creamy dressing."
 },
 
@@ -464,7 +464,7 @@ const menuData = [
   name: "Coleslaw",
   category: "Salad",
   price: "Rs. 250",
-  image: "https://placehold.co/400x300?text=Coleslaw",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErfoS7q7AhT2h6KbO43F2CxoRtDRRMwSp4MOOJm6yJ7rHDeMZlkxH2m8&s=10",
   description: "Crunchy cabbage and carrots mixed with creamy mayonnaise."
 },
 
@@ -472,7 +472,7 @@ const menuData = [
   name: "Tuna Salad",
   category: "Salad",
   price: "Rs. 650",
-  image: "https://placehold.co/400x300?text=Tuna+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3fThDEXG8rcz77Iwkj9y8JW-YzG40mx97kLDv5XYaAVPCHCHiljH50KIl&s=10",
   description: "Fresh vegetables combined with premium tuna and herbs."
 },
 
@@ -480,7 +480,7 @@ const menuData = [
   name: "Avocado Salad",
   category: "Salad",
   price: "Rs. 750",
-  image: "https://placehold.co/400x300?text=Avocado+Salad",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PcKOe_tQ7eIx1bQU-biJ8tuFCsqRrd0dkC2PZTY7xHNbBQ9CcQ3y7UE&s=10",
   description: "Healthy avocado salad with fresh greens and lemon dressing."
 },
 ];
