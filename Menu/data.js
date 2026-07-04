@@ -416,7 +416,7 @@ const menuData = [
   name: "Greek Salad",
   category: "Salad",
   price: "Rs. 420",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGoDGyd8FoPafK7MdTJXiOR7kef-eFwTuoWeSZSqN8FwlHRYhc19WbuI&s=10",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLxYF671y9y7nF4v0SXYVDCY_6dzsXldvmPtQecoJWPjSlGWoCCdl6pzE&s=10",
   description: "Healthy salad with tomatoes, cucumbers, olives, and feta cheese."
 },
 
