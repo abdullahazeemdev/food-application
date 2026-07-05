@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#0f172a;
+
+    background-image:
+    radial-gradient(circle at top left,#facc1515,transparent 30%),
+    radial-gradient(circle at bottom right,#facc1515,transparent 30%);
+}
+
+.container{
+
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:30px;
+}
+
+.signup-card{
+
+    width:100%;
+    max-width:450px;
+
+    background:rgba(15,23,42,.75);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(250,204,21,.3);
+
+    border-radius:25px;
+
+    padding:40px 35px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
+.logo{
+
+    text-align:center;
+
+    margin-bottom:35px;
+}
+
+.logo h1{
+
+    font-size:42px;
+
+    color:white;
+}
+
+.logo span{
+
+    color:#facc15;
+}
+
+.logo p{
+
+    color:#cbd5e1;
+
+    margin-top:10px;
+}
+
+.input-box{
+
+    margin-bottom:20px;
+}
+
+.input-box label{
+
+    display:block;
+
+    color:#e2e8f0;
+
+    margin-bottom:8px;
+
+    font-size:14px;
+}
+
+.input-box input{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    background:#1e293b;
+
+    border:1px solid #475569;
+
+    border-radius:12px;
+
+    color:white;
+
+    outline:none;
+
+    transition:.3s;
+}
+
+.input-box input:focus{
+
+    border-color:#facc15;
+
+    box-shadow:0 0 10px rgba(250,204,21,.3);
+}
+
+.password-box{
+
+    display:flex;
+
+    align-items:center;
+
+    background:#1e293b;
+
+    border:1px solid #475569;
+
+    border-radius:12px;
+
+    overflow:hidden;
+}
+
+.password-box input{
+
+    border:none;
+
+    background:transparent;
+
+    flex:1;
+}
+
+.password-box button{
+
+    width:55px;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+}
+
+.signup-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:10px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#facc15;
+
+    color:black;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.signup-btn:hover{
+
+    background:#eab308;
+
+    transform:translateY(-2px);
+}
+
+.login-text{
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#cbd5e1;
+}
+
+.login-text a{
+
+    color:#facc15;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
+
+@media(max-width:480px){
+
+.signup-card{
+
+    padding:30px 22px;
+}
+
+.logo h1{
+
+    font-size:34px;
+}
+
+}
