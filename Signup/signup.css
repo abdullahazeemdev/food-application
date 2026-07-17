@@ -206,6 +206,31 @@ body{
     font-weight:bold;
 }
 
+.password-box{
+    position: relative;
+}
+
+.password-box input{
+    width: 100%;
+    padding-right: 45px;
+}
+
+.eye-btn{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.eye-btn:hover{
+    color: #ff6b35;
+}
+
 @media(max-width:480px){
 
 .signup-card{
