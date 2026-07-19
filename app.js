@@ -11,7 +11,7 @@ const login = document.getElementById("login")
 
 
 menu.addEventListener("click", () =>{
-       window.location.href = "Menu/index.html";
+       window.location.href = "login/index.html";
 })
 
 sign.addEventListener("click", () =>{
