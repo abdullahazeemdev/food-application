@@ -145,6 +145,10 @@ body{
     font-size:18px;
 }
 
+#togglePassword i:hover{
+    color: #ff6b35;
+}
+
 .options{
 
     display:flex;

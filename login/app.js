@@ -104,14 +104,16 @@ login.addEventListener("click", (e) => {
 
     const user = JSON.parse(localStorage.getItem("users")) || [];
 
-    // ===================       ==================================
+    // =================== User does not exist  ==================================
 
     if(user.length === 0 ){
     Swal.fire({
         icon: "warning",
         title: "No Account Found",
         text: "No user is registered. Please sign up first."
-    });
+    }).then(()=>{
+        window.location.href = "../signup/signup.html"
+    })
     return;
     }
     // ======================= find user ===============================

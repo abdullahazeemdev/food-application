@@ -30,18 +30,54 @@ if (!currentUser) {
 
     userName.textContent = currentUser.name
 
-    Swal.fire({
+    // Swal.fire({
 
-        icon: "success",
-        title: `Welcome ${currentUser.name} 👋`,
-        text: "Login Successfully!",
-        timer: 1800,
-        showConfirmButton: false
-    })
+    //     icon: "success",
+    //     title: `Welcome ${currentUser.name} 👋`,
+    //     text: "Login Successfully!",
+    //     timer: 1800,
+    //     showConfirmButton: false
+    // })
 };
 
 // ================ menu button ================
 
-menu.addEventListener("click" , () =>{
+menu.addEventListener("click", () => {
     window.location.href = "../Menu/index.html";
-})
+});
+
+// ====================== logout =====================
+
+logout.addEventListener("click", () => {
+    // console.log("run")
+    Swal.fire({
+
+        title: "Logout?",
+        text: "Do you really want to logout?",
+        icon: "question",
+        showCancelButton: true,
+        cancelButtonColor: "#ef4444",
+        confirmButtonText: "Yes, Logout",
+        cancelButtonText: "Cancel"
+
+    })
+        .then((res) => {
+
+            if (res.isConfirmed) {
+
+                localStorage.removeItem("currentUser")
+
+                Swal.fire({
+                    icon: "success",
+                    title: "Logged Out",
+                    text: "Logout Successfully!",
+                    timer: 1500,
+                    showCancelButton: false
+                });
+
+                setTimeout(() => {
+                    window.location.href = "../login/index.html";
+                }, 1500);
+            };
+        });
+});
