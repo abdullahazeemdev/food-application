@@ -131,7 +131,7 @@ signupForm.addEventListener("submit", function (e) {
         showConfirmButton: false
     }).then(() => {
 
-        window.location.href = "../Login/index.html";
+        window.location.href = "../login/index.html";
 
     });
 
