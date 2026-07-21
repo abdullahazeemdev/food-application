@@ -14,16 +14,21 @@ const search = document.getElementById("search");
 const searchBtn = document.getElementById("searchBtn");
 
 
-function menu(category){
-    const modifedMenu = menuData.filter(function(menu){
-        if(category){return menu.category.toLowerCase() == category.toLowerCase()}
-        else{
+function menu(category) {
+
+    const modifedMenu = menuData.filter(function (menu) {
+
+        if (category) { return menu.category.toLowerCase() == category.toLowerCase() }
+
+        else {
+
             return true
+
         }
-    
-   }).map(function (menu){
-    const menuHtml = `
-<div class="group bg-slate-900 border border-slate-700 rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-yellow-400 hover:shadow-2xl hover:shadow-yellow-500/20">
+
+    }).map(function (menu) {
+
+        const menuHtml = `<div class="group bg-slate-900 border border-slate-700 rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-yellow-400 hover:shadow-2xl hover:shadow-yellow-500/20">
 
     
     <div class="relative overflow-hidden">
@@ -67,11 +72,11 @@ function menu(category){
 
 </div>`
 
-return menuHtml
-})
+        return menuHtml
+    })
 
-const menuContainer = document.getElementById("menu-container")
-menuContainer.innerHTML = modifedMenu.join(' ');
+    const menuContainer = document.getElementById("menu-container")
+    menuContainer.innerHTML = modifedMenu.join(' ');
 }
 
 menu();
@@ -89,21 +94,24 @@ salad.addEventListener("click", () => menu("Salad"));
 
 searchBtn.addEventListener("click", searchFood);
 
-search.addEventListener("keyup" , function(e){
-    if(e.key === "Enter"){
-       searchFood ();
+search.addEventListener("keyup", function (e) {
+    if (e.key === "Enter") {
+        searchFood();
     }
 });
 
-function searchFood(){
-   const searchValue = search.value.trim().toLowerCase();
+function searchFood() {
 
-   const filterItem = menuData.filter((menu) => {
-    return menu.name.toLowerCase().trim().includes(searchValue)
-   });
+    const searchValue = search.value.trim().toLowerCase();
 
-   const modified = filterItem.map((menu) => {
-    
+    const filterItem = menuData.filter((menu) => {
+
+        return menu.name.toLowerCase().trim().includes(searchValue)
+
+    });
+
+    const modified = filterItem.map((menu) => {
+
         return `
 <div class="group bg-slate-900 border border-slate-700 rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-yellow-400 hover:shadow-2xl hover:shadow-yellow-500/20">
 
@@ -146,8 +154,8 @@ function searchFood(){
 
 </div>
 `;
-   });
+    });
 
-   document.getElementById("menu-container").innerHTML = modified.join(" ")
+    document.getElementById("menu-container").innerHTML = modified.join(" ")
 
 };

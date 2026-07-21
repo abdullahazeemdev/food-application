@@ -1,0 +1,483 @@
+[
+  { 
+  "name": "Halwa Puri",
+  "category": "breakfast",
+  "price": "Rs. 450",
+  "image": "https://media.istockphoto.com/id/502759669/photo/halwa-puri-breakfast.jpg?s=612x612&w=0&k=20&c=pAVZBHulOXX7o3HOXgmRQAGsTFJuoAL3UbZirxLnpJg=",
+  "description": "Traditional Pakistani breakfast with fluffy puri, sweet halwa, and spicy chickpeas."
+},
+
+{
+  "name": "Aloo Paratha",
+  "category": "breakfast",
+  "price": "Rs. 280",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROv6MaNZQaa8gqgH4XqpO1ZyBszdy_HJXoCwetZZCGn5ugU9YyfkDFwcQh&s=10",
+  "description": "Crispy flatbread stuffed with flavorful mashed potatoes and spices."
+},
+
+{
+  "name": "Cheese Omelette",
+  "category": "breakfast",
+  "price": "Rs. 320",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4-TaJ2pmfK5ricCq3yx4iC6pCD3_8Dvp1Li9BySvyQ&s",
+  "description": "Fluffy eggs filled with melted cheese and cooked to perfection."
+},
+
+{
+  "name": "French Toast",
+  "category": "breakfast",
+  "price": "Rs. 350",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqOKSTk3OTVnIOgb_gEXZJ2ALM8y00LkYicTTytT5ttHAgi3pT69SkGU&s=10",
+  "description": "Golden toasted bread dipped in egg mixture and lightly sweetened."
+},
+
+{
+  "name": "Pancakes",
+  "category": "breakfast",
+  "price": "Rs. 400",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSU_WVvspgbmrUr6UK_rYh2SQ0BdBzgDV23ilJz_3lBo_U6gNgpKjsQQ0f&s=10",
+  "description": "Soft and fluffy pancakes served with syrup and butter."
+},
+
+{
+  "name": "Chicken Sandwich",
+  "category": "breakfast",
+  "price": "Rs. 380",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9agOHzTODABEiVoaksVKy7YlnnEtWSCTmCrV5lvABC0jPXWFoltvZcKXc&s=10",
+  "description": "Grilled chicken with fresh vegetables and creamy mayo in toasted bread."
+},
+
+{
+  "name": "Club Sandwich",
+  "category": "breakfast",
+  "price": "Rs. 450",
+  "image": "https://t4.ftcdn.net/jpg/07/07/16/29/360_F_707162908_rOMRnjEBt8AKe2vY5EqLv8r0gKAunxOn.jpg",
+  "description": "Triple-layer sandwich loaded with chicken, egg, vegetables, and cheese."
+},
+
+{
+  "name": "Nihari",
+  "category": "breakfast",
+  "price": "Rs. 650",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWIq9ntyWgJbNTBW5sJa_2NdRhrTES07PgyBd4Ek-QoTqKskiByn77mskh&s=10",
+  "description": "Slow-cooked spicy beef stew served with naan for a rich breakfast."
+},
+
+{
+  "name": "Chana Masala",
+  "category": "breakfast",
+  "price": "Rs. 250",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjS6YIM6lVS023LYK8tx1aECAI16f4zkFsUascs1WAkPlvAvu330R-BM&s=10",
+  "description": "Classic chickpea curry cooked with aromatic spices and herbs."
+},
+
+{
+  "name": "Desi Breakfast",
+  "category": "breakfast",
+  "price": "Rs. 750",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLKYRTzbIjLJSV1bd_fu9ujiC-beRoL5WRiYFb-UvzmBnwyrWgcHDDXk&s=10",
+  "description": "A complete breakfast platter with paratha, omelette, halwa, and tea."
+},
+
+{
+  "name": "Chicken Biryani",
+  "category": "Lunch",
+  "price": "Rs. 550",
+  "image": "https://static.vecteezy.com/system/resources/thumbnails/040/703/949/small/ai-generated-royal-feast-master-the-art-of-chicken-biryani-at-home-generative-ai-photo.jpg",
+  "description": "Fragrant basmati rice layered with spicy chicken and traditional spices."
+},
+
+{
+  "name": "Beef Biryani",
+  "category": "Lunch",
+  "price": "Rs. 650",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN3SV9uAHBwtAq0sfDz0gmMEZo2dCrYXYZ0PNaZj2KNgBRwu-dKV0U808Y&s=10",
+  "description": "Flavorful beef cooked with aromatic rice and authentic biryani masala."
+},
+
+{
+  "name": "Chicken Karahi",
+  "category": "Lunch",
+  "price": "Rs. 950",
+  "image": "https://i.ytimg.com/vi/GIYgCNsgzUw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCjwWjbJ23XExe2KWcHottP40j5hw",
+  "description": "Tender chicken cooked in a rich tomato-based karahi masala."
+},
+
+{
+  "name": "Mutton Karahi",
+  "category": "Lunch",
+  "price": "Rs. 1450",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mutton_karahi.jpg",
+  "description": "Juicy mutton prepared with fresh tomatoes, ginger, and spices."
+},
+
+{
+  "name": "Chicken Handi",
+  "category": "Lunch",
+  "price": "Rs. 990",
+  "image": "https://i.ytimg.com/vi/_kkosy25Yuc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA83cvGjKEEUkYkFRH7zxc2t_nIDA",
+  "description": "Creamy chicken curry cooked with fresh cream and special herbs."
+},
+
+{
+  "name": "White Chicken",
+  "category": "Lunch",
+  "price": "Rs. 1100",
+  "image": "https://i.ytimg.com/vi/muimtkU9pt8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO1CfWFgMHZVWD5AmxwQeOxJandA",
+  "description": "Rich creamy chicken cooked with mild spices and cheese."
+},
+
+{
+  "name": "Chicken Pulao",
+  "category": "Lunch",
+  "price": "Rs. 450",
+  "image": "https://ikneadtoeat.com/wp-content/uploads/2022/06/chicken-pulao-recipe-2.jpg",
+  "description": "Lightly spiced rice cooked with tender chicken and fragrant herbs."
+},
+
+{
+  "name": "Chicken Qorma",
+  "category": "Lunch",
+  "price": "Rs. 850",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6MH2Ee8zR4tSoUpBbdD_VKLoPQjmbKlApaTCW4LRDIlxOSW9QNXLBj6c&s=10",
+  "description": "Traditional chicken curry with creamy gravy and aromatic spices."
+},
+
+{
+  "name": "Dal Chawal",
+  "category": "Lunch",
+  "price": "Rs. 300",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdh46htMgElBcsQUIfmYG17p5nEo3Yi3xMZqY_Sa1votN_WwJfginAns4&s=10",
+  "description": "Comforting lentil curry served with steamed rice."
+},
+
+{
+  "name": "Chicken Tikka",
+  "category": "Lunch",
+  "price": "Rs. 420",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt6Xw3WS5S_15Z6gt35h30M5cyvR5t6jR2QJ4NpcxRP2lMbczjabRFs0P8&s=10",
+  "description": "Smoky grilled chicken marinated with traditional BBQ spices."
+},
+
+
+{
+  "name": "Coca Cola",
+  "category": "Drinks",
+  "price": "Rs. 120",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqp0Dw4vRYe6BAGbovmNWSDLAC84hBw86zlOCy7d_AFX1JqmYiwrDB3ZY&s=10",
+  "description": "Chilled refreshing soft drink served ice cold."
+},
+
+{
+  "name": "Pepsi",
+  "category": "Drinks",
+  "price": "Rs. 120",
+  "image": "https://t4.ftcdn.net/jpg/02/84/65/61/360_F_284656175_G6SlGTBVl4pg8oXh6jr86cOmKUZjfrym.jpg",
+  "description": "Classic carbonated soft drink with a refreshing taste."
+},
+
+{
+  "name": "7UP",
+  "category": "Drinks",
+  "price": "Rs. 120",
+  "image": "https://t4.ftcdn.net/jpg/05/49/40/09/360_F_549400997_86VwTSHVAo18DllHzlWXaeLbBLAgYOEu.jpg",
+  "description": "Refreshing lemon-lime soft drink served chilled."
+},
+
+{
+  "name": "Mint Margarita",
+  "category": "Drinks",
+  "price": "Rs. 280",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0nnKoJ91d1g4mvuy1h_uo9a1BUxWfFZdL4raSnZO6wYatT7W7HxlsKtc&s=10",
+  "description": "Fresh mint and lemon blended into a cool refreshing drink."
+},
+
+{
+  "name": "Lemonade",
+  "category": "Drinks",
+  "price": "Rs. 250",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwv5-v4DOu-K0IQhTuBLT6nxRUZJGuyjujiMDWp4VQ2Lh7WdllMCEns2I&s=10",
+  "description": "Freshly squeezed lemons mixed with chilled sparkling water."
+},
+
+{
+  "name": "Mango Shake",
+  "category": "Drinks",
+  "price": "Rs. 350",
+  "image": "https://t4.ftcdn.net/jpg/01/63/49/09/360_F_163490991_ASRBS0x9ZEWekoihL8UcRIV6BebG2Ud2.jpg",
+  "description": "Creamy mango shake made with fresh mangoes and milk."
+},
+
+{
+  "name": "Chocolate Shake",
+  "category": "Drinks",
+  "price": "Rs. 380",
+  "image": "https://media.istockphoto.com/id/926990564/photo/chocolate-milk-and-whipped-cream.jpg?s=612x612&w=0&k=20&c=LabS3iGKio9kYS7OUGsosTm0Bb4XKY8WkXPer_RU3IQ=",
+  "description": "Rich chocolate milkshake topped with whipped cream."
+},
+
+{
+  "name": "Fresh Orange Juice",
+  "category": "Drinks",
+  "price": "Rs. 300",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG983JOrIt7UqaY0oBcdEklq0tN352dzBSrzzaE2_OuijBGLTV1GJRwSM&s=10",
+  "description": "Pure freshly squeezed orange juice full of natural flavor."
+},
+
+{
+  "name": "Cold Coffee",
+  "category": "Drinks",
+  "price": "Rs. 350",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQivDyc7MoSPqF1OGmP2200f_EuNKACcpZMuccsYm887Na6rF94YFFFhnA&s=10",
+  "description": "Creamy iced coffee blended with milk and chocolate."
+},
+
+{
+  "name": "Mineral Water",
+  "category": "Drinks",
+  "price": "Rs. 80",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1LAtAib957b8pmPZPB58AsrMttBhzFsecEcnKQsFPxDJ8a3MNjLlfTA&s=10",
+  "description": "Pure bottled mineral water served chilled."
+},
+
+
+{
+  "name": "BBQ Steak",
+  "category": "Dinner",
+  "price": "Rs. 1600",
+  "image": "https://www.shutterstock.com/image-photo/rustic-wooden-board-showcases-array-260nw-2530685063.jpg",
+  "description": "Juicy grilled steak seasoned with smoky BBQ flavors."
+},
+
+{
+  "name": "Grilled Chicken",
+  "category": "Dinner",
+  "price": "Rs. 850",
+  "image": "https://thumbs.dreamstime.com/b/grill-chicken-legs-grilled-chicken-legs-bbq-sesame-parsley-tomato-95526623.jpg",
+  "description": "Tender grilled chicken served with herbs and vegetables."
+},
+
+{
+  "name": "Chicken Alfredo Pasta",
+  "category": "Dinner",
+  "price": "Rs. 950",
+  "image": "https://gimmedelicious.com/wp-content/uploads/2024/10/Skinny-Chicken-Broccoli-Alfredo.jpg",
+  "description": "Creamy Alfredo pasta tossed with juicy grilled chicken."
+},
+
+{
+  "name": "Chicken Lasagna",
+  "category": "Dinner",
+  "price": "Rs. 900",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfoy2vVaffQaYa3m-sN83ETeHOrzrpwp1EIGB3NkK4JwGeNWBenqKt3KP&s=10",
+  "description": "Layers of pasta, chicken, cheese, and rich tomato sauce."
+},
+
+{
+  "name": "Zinger Burger",
+  "category": "Dinner",
+  "price": "Rs. 550",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8onWP5i2F1qtWmujPMyuw5XQZcGyBCO6SYb22z9JeJ_mOXaXPi3t5X-zw&s=10",
+  "description": "Crispy spicy chicken fillet served in a soft burger bun."
+},
+
+{
+  "name": "Beef Burger",
+  "category": "Dinner",
+  "price": "Rs. 680",
+  "image": "https://media.istockphoto.com/id/2061716709/photo/grilled-rib-burger.jpg?s=612x612&w=0&k=20&c=QS37W9zjBE3GoOeR8ay3k_DS7oXPH07MBg-WHY5Joac=",
+  "description": "Juicy beef patty layered with cheese and fresh vegetables."
+},
+
+{
+  "name": "Chicken Pizza",
+  "category": "Dinner",
+  "price": "Rs. 1400",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAxpQSMisY0Zaj0v2TGYhwfMyoYj_pTggnSN7BZERazo6WDRrTRKrWY8&s=10",
+  "description": "Cheesy pizza topped with seasoned chicken and vegetables."
+},
+
+{
+  "name": "Fajita Pizza",
+  "category": "Dinner",
+  "price": "Rs. 1500",
+  "image": "https://somebodyfeedseb.com/wp-content/uploads/2025/06/Square-2025.04.17-Chicken-fajita-pizza-9574.jpg",
+  "description": "Loaded pizza with fajita chicken, onions, and capsicum."
+},
+
+{
+  "name": "Chicken Chow Mein",
+  "category": "Dinner",
+  "price": "Rs. 750",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnXFJtj3cXL-irsWlMnNqPi89nicrLGdMuDAvUOS1KXwzJzgaB7bfF5fA&s=10",
+  "description": "Stir-fried noodles with chicken and fresh vegetables."
+},
+
+{
+  "name": "Chicken Fried Rice",
+  "category": "Dinner",
+  "price": "Rs. 700",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-5axYGqE8PBSY_VTnGjLQG1RZC213soo_lVg_rknfR84wl-p9hm6PI0&s=10",
+  "description": "Classic fried rice cooked with chicken, vegetables, and soy sauce."
+},
+
+{
+  "name": "Chocolate Cake",
+  "category": "Dessert",
+  "price": "Rs. 450",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQetkiViDgBAKtTgpBoBkNiocgX2sTsQqtodjvTnrX524B4eQ0ZYWy8M&s=10",
+  "description": "Moist chocolate cake layered with rich chocolate frosting."
+},
+
+{
+  "name": "Cheesecake",
+  "category": "Dessert",
+  "price": "Rs. 550",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP7dOe79zqoPo5kSV2hg6HJsVGHO3ss8_Iq14U369m3h8Q0b397RfoAIA&s=10",
+  "description": "Creamy baked cheesecake with a buttery biscuit base."
+},
+
+{
+  "name": "Brownie",
+  "category": "Dessert",
+  "price": "Rs. 350",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkMQchpACyzWud0ucbKpTa4i3YWvHiHDWoYrOMMxCUA-rFJvQZXR9lWib&s=10",
+  "description": "Soft chocolate brownie with a rich fudgy center."
+},
+
+{
+  "name": "Ice Cream",
+  "category": "Dessert",
+  "price": "Rs. 250",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXy5Py5BWiiG2h2x04UCwW2LUrE97aL2ut4bmlCrH46g&s",
+  "description": "Creamy frozen dessert available in delicious flavors."
+},
+
+{
+  "name": "Gulab Jamun",
+  "category": "Dessert",
+  "price": "Rs. 220",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkiEZFfbgDaqgpM5YleUxN61m9duQN029zCaALb65wdSKe_i_7U1JhIs&s=10",
+  "description": "Soft milk dumplings soaked in sweet sugar syrup."
+},
+
+{
+  "name": "Kheer",
+  "category": "Dessert",
+  "price": "Rs. 280",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDaw3Jy5vBPsJzkdzkp8f_eP-RhJdsZX2pYSdllEDWkHoDxH6kPXzFpUgv&s=10",
+  "description": "Traditional rice pudding cooked with milk and cardamom."
+},
+
+{
+  "name": "Ras Malai",
+  "category": "Dessert",
+  "price": "Rs. 320",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ocD3Ml4AnzEmWstqL7YUqYqCSvm1vF9DQRNgrd90YhAbRfjespSJOSVS&s=10",
+  "description": "Soft cheese patties served in sweet creamy milk."
+},
+
+{
+  "name": "Kunafa",
+  "category": "Dessert",
+  "price": "Rs. 650",
+  "image": "https://i.ytimg.com/vi/zR4DkPdTSdY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC3waig9sDGlQA0xZQ02mo4TxFrQg",
+  "description": "Middle Eastern dessert with crispy pastry and melted cheese."
+},
+
+{
+  "name": "Donut",
+  "category": "Dessert",
+  "price": "Rs. 180",
+  "image": "https://media.istockphoto.com/id/1753975566/photo/assorted-donuts-with-chocolate-frosting-topping-sprinkles-donuts-colorful-variety-and-variety.jpg?s=612x612&w=0&k=20&c=04sCKJRzDL9rVfnuB0dgHedcl7T2jRrYbX28Y1G_dVk=",
+  "description": "Soft glazed donut with a sweet and fluffy texture."
+},
+
+{
+  "name": "Macaron",
+  "category": "Dessert",
+  "price": "Rs. 450",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46NSu12BSZ_UAFXgEZwHqbOTxQrG2r--mu_2hzAy2aNgGdFCiQxvCO_tx&s=10",
+  "description": "Delicate French cookies with creamy flavored filling."
+},
+
+{
+  "name": "Caesar Salad",
+  "category": "Salad",
+  "price": "Rs. 450",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kdy4srkH4cGEMCxjNQTMYt6oZWOldKiK2OhvS504TQIAL8uVxReXiBg&s=10",
+  "description": "Fresh lettuce tossed with Caesar dressing, cheese, and croutons."
+},
+
+{
+  "name": "Greek Salad",
+  "category": "Salad",
+  "price": "Rs. 420",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLxYF671y9y7nF4v0SXYVDCY_6dzsXldvmPtQecoJWPjSlGWoCCdl6pzE&s=10",
+  "description": "Healthy salad with tomatoes, cucumbers, olives, and feta cheese."
+},
+
+{
+  "name": "Chicken Salad",
+  "category": "Salad",
+  "price": "Rs. 520",
+  "image": "https://media.istockphoto.com/id/671436910/photo/homemade-healthy-chicken-salad.jpg?s=612x612&w=0&k=20&c=7GEz3p4Nwvqi9hZkfpU7iM_UDi6h4emt9trfHqZLG4k=",
+  "description": "Fresh vegetables topped with grilled chicken and dressing."
+},
+
+{
+  "name": "Russian Salad",
+  "category": "Salad",
+  "price": "Rs. 380",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBCEOatdc7YYwCm9kTyjzGbHY3n9ZmC93prRE6lF3Bo5hAmRykvkH2b4&s=10",
+  "description": "Creamy mixed vegetable salad with mayonnaise dressing."
+},
+
+{
+  "name": "Garden Salad",
+  "category": "Salad",
+  "price": "Rs. 350",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThTA156S8LABbFFZjGoIB0eoKiqWOCjeMRY9uxe13xgJahypmFzyBK-34&s=10",
+  "description": "Fresh seasonal vegetables served with light dressing."
+},
+
+{
+  "name": "Fruit Salad",
+  "category": "Salad",
+  "price": "Rs. 300",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6omrlSrwJAP3MHWBaGizk3uweggWBE81c_Qjv3DuId02m_4zy1rjLIE&s=10",
+  "description": "A colorful mix of fresh seasonal fruits."
+},
+
+{
+  "name": "Pasta Salad",
+  "category": "Salad",
+  "price": "Rs. 480",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbK696yteJ2c7c1JIXHtb5wLjLKnm-wBEYLZspHQpKJaF6H1G-kwrzGZsN&s=10",
+  "description": "Cold pasta tossed with vegetables and creamy dressing."
+},
+
+{
+  "name": "Coleslaw",
+  "category": "Salad",
+  "price": "Rs. 250",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErfoS7q7AhT2h6KbO43F2CxoRtDRRMwSp4MOOJm6yJ7rHDeMZlkxH2m8&s=10",
+  "description": "Crunchy cabbage and carrots mixed with creamy mayonnaise."
+},
+
+{
+  "name": "Tuna Salad",
+  "category": "Salad",
+  "price": "Rs. 650",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3fThDEXG8rcz77Iwkj9y8JW-YzG40mx97kLDv5XYaAVPCHCHiljH50KIl&s=10",
+  "description": "Fresh vegetables combined with premium tuna and herbs."
+},
+
+{
+  "name": "Avocado Salad",
+  "category": "Salad",
+  "price": "Rs. 750",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PcKOe_tQ7eIx1bQU-biJ8tuFCsqRrd0dkC2PZTY7xHNbBQ9CcQ3y7UE&s=10",
+  "description": "Healthy avocado salad with fresh greens and lemon dressing."
+}
+]

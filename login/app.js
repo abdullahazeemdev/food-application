@@ -112,7 +112,7 @@ login.addEventListener("click", (e) => {
         title: "No Account Found",
         text: "No user is registered. Please sign up first."
     }).then(()=>{
-        window.location.href = "../signup/signup.html"
+        window.location.href = "../Signup/signup.html"
     })
     return;
     }
