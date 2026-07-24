@@ -1,0 +1,339 @@
+/* ================= Google Font ================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ================= Reset ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1f2937;
+    min-height:100vh;
+}
+
+/* ================= Header ================= */
+
+.header{
+    background:#ffffff;
+    padding:22px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.header h1{
+    font-size:30px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#ff6b35;
+}
+
+.back-btn{
+    text-decoration:none;
+    background:#ff6b35;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.back-btn:hover{
+    background:#e85b2c;
+    transform:translateY(-3px);
+    box-shadow:0 15px 25px rgba(255,107,53,.35);
+}
+
+/* ================= Main ================= */
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:50px auto;
+}
+
+.cart-wrapper{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:35px;
+}
+
+/* ================= Cards ================= */
+
+.cart-items,
+.summary{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 15px 40px rgba(0,0,0,.07);
+}
+
+.cart-items h2,
+.summary h2{
+    font-size:24px;
+    margin-bottom:25px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#222;
+}
+
+/* ================= Cart Item ================= */
+
+.cart-item{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:18px;
+    border-radius:18px;
+    margin-bottom:18px;
+    border:1px solid #eee;
+    transition:.35s;
+    background:#fff;
+}
+
+.cart-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.cart-item img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:16px;
+}
+
+.cart-info{
+    flex:1;
+}
+
+.cart-info h3{
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.cart-info p{
+    color:#777;
+    margin-bottom:8px;
+}
+
+.price{
+    color:#ff6b35;
+    font-weight:700;
+    font-size:22px;
+}
+
+/* ================= Quantity ================= */
+
+.quantity{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-top:12px;
+}
+
+.quantity button{
+    width:38px;
+    height:38px;
+    border:none;
+    border-radius:50%;
+    background:#ff6b35;
+    color:#fff;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+.quantity button:hover{
+    transform:scale(1.1);
+    background:#e85b2c;
+}
+
+.quantity span{
+    font-size:20px;
+    font-weight:600;
+}
+
+/* ================= Remove Button ================= */
+
+.remove-btn{
+    background:#ef4444;
+    color:#fff;
+    border:none;
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.remove-btn:hover{
+    background:#dc2626;
+    transform:rotate(8deg);
+}
+
+/* ================= Summary ================= */
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    margin:18px 0;
+    font-size:17px;
+}
+
+.summary hr{
+    border:none;
+    height:1px;
+    background:#ddd;
+    margin:20px 0;
+}
+
+.total{
+    font-size:22px;
+    font-weight:700;
+    color:#111;
+}
+
+/* ================= Buttons ================= */
+
+.summary button{
+    width:100%;
+    border:none;
+    padding:16px;
+    border-radius:14px;
+    margin-top:15px;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:600;
+    transition:.35s;
+}
+
+#checkoutBtn{
+    background:#ff6b35;
+    color:#fff;
+}
+
+#checkoutBtn:hover{
+    background:#e85b2c;
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(255,107,53,.35);
+}
+
+#orderBtn{
+    background:#111827;
+    color:#fff;
+}
+
+#orderBtn:hover{
+    background:#000;
+    transform:translateY(-3px);
+}
+
+/* ================= Empty Cart ================= */
+
+.empty-cart{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.empty-icon{
+    font-size:85px;
+    color:#d1d5db;
+    margin-bottom:25px;
+}
+
+.empty-cart h2{
+    justify-content:center;
+    margin-bottom:12px;
+}
+
+.empty-cart p{
+    color:#777;
+    max-width:420px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.shop-btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#ff6b35;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.shop-btn:hover{
+    background:#e85b2c;
+    transform:translateY(-4px);
+    box-shadow:0 15px 30px rgba(255,107,53,.35);
+}
+
+/* ================= Footer ================= */
+
+footer{
+    background:#111827;
+    color:#fff;
+    text-align:center;
+    padding:35px 20px;
+    margin-top:60px;
+}
+
+footer h2{
+    margin-bottom:8px;
+    font-size:28px;
+}
+
+footer p{
+    color:#b8b8b8;
+}
+
+/* ================= Responsive ================= */
+
+@media(max-width:992px){
+
+    .cart-wrapper{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .header{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .cart-item{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .cart-item img{
+        width:180px;
+        height:180px;
+    }
+
+    .quantity{
+        justify-content:center;
+    }
+
+}

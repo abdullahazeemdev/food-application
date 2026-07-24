@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FoodFun | Shopping Cart</title>
+
+    <link rel="stylesheet" href="cart.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= Header ================= -->
+
+    <header class="header">
+
+        <h1>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Shopping Cart
+        </h1>
+
+        <a href="../Menu/index.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+            Continue Shopping
+        </a>
+
+    </header>
+
+    <!-- ================= Main ================= -->
+
+    <main class="container">
+
+        <div class="cart-wrapper">
+
+            <!-- ================= Cart Items ================= -->
+
+            <section class="cart-items">
+
+                <h2>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    Cart Items
+                </h2>
+
+                <div id="cart-items">
+                    <!-- Rendered by JavaScript -->
+                </div>
+
+                <!-- ================= Empty Cart ================= -->
+
+                <div id="empty-cart" class="empty-cart" style="display: none;">
+
+                    <i class="fa-solid fa-cart-shopping empty-icon"></i>
+
+                    <h2>Your Cart is Empty</h2>
+
+                    <p>
+                        You haven't added any items yet. Explore our menu and
+                        discover your favorite meals.
+                    </p>
+
+                    <a href="../Menu/index.html" class="shop-btn">
+                        <i class="fa-solid fa-utensils"></i>
+                        Browse Menu
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- ================= Order Summary ================= -->
+
+            <aside class="summary">
+
+                <h2>
+                    <i class="fa-solid fa-receipt"></i>
+                    Order Summary
+                </h2>
+
+                <div class="summary-row">
+                    <span>Total Items</span>
+                    <span id="totalItems">0</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Delivery Fee</span>
+                    <span>Rs. 150</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span>Rs. 0</span>
+                </div>
+
+                <hr>
+
+                <div class="summary-row total">
+                    <span>Total Amount</span>
+                    <span id="totalPrice">Rs. 0</span>
+                </div>
+
+                <button id="checkoutBtn">
+                    <i class="fa-solid fa-credit-card"></i>
+                    Proceed to Checkout
+                </button>
+
+                <button id="orderBtn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Place Order
+                </button>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <!-- ================= Footer ================= -->
+
+    <footer>
+
+        <h2>FoodFun</h2>
+
+        <p>
+            Premium Food Ordering Experience
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="cart.js"></script>
+
+</body>
+
+</html>

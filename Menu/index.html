@@ -1,152 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>FoodFun | Menu</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
+
 <body class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white duration-300">
-    <!-- Heading -->
+
+    <!-- ================= Heading ================= -->
+
     <section class="py-10">
+
         <h1 class="text-5xl font-extrabold text-center mb-3">
-         F<span class="logo-oo text-yellow-500">oo</span>dFun Menu
+            F<span class="text-yellow-500">oo</span>dFun Menu
         </h1>
 
         <p class="text-center text-gray-400 text-lg mt-10 mb-10 max-w-2xl mx-auto leading-8">
-        At <span class="text-yellow-400 font-semibold">FoodFun</span>, every meal is crafted with fresh ingredients, rich flavors, and a passion for creating unforgettable dining experiences.
+            At <span class="text-yellow-400 font-semibold">FoodFun</span>, every meal is crafted with fresh
+            ingredients,
+            rich flavors, and a passion for creating unforgettable dining experiences.
         </p>
 
-<div class="max-w-7xl mx-auto px-5 mb-10">
+        <!-- ================= Filter ================= -->
 
-    <div class="flex flex-col lg:flex-row items-center justify-between gap-6
-    bg-slate-900/70
-    backdrop-blur-xl
-    border border-yellow-400/30
-    rounded-3xl
-    px-8 py-6
-    shadow-[0_10px_30px_rgba(0,0,0,0.4)]
-    hover:border-yellow-300
-    hover:shadow-[0_0_25px_rgba(250,204,21,0.4),0_0_60px_rgba(250,204,21,0.2)]
-    hover:bg-slate-800/80
-    hover:-translate-y-1
-    transition-all
-    duration-500
-    ease-out">
+        <div class="max-w-7xl mx-auto px-5 mb-10">
 
+            <div
+                class="flex flex-col lg:flex-row items-center justify-between gap-6 bg-slate-900/70 backdrop-blur-xl border border-yellow-400/30 rounded-3xl px-8 py-6">
 
-        <!-- Categories -->
-        <div id="categories" class="flex flex-wrap gap-4">
+                <!-- Categories -->
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="all">
-                All
-            </button>
+                <div id="categories" class="flex flex-wrap gap-4">
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="breakfast">
-                Breakfast
-            </button>
+                    <button id="all"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        All
+                    </button>
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="lunch">
-                Lunch
-            </button>
+                    <button id="breakfast"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Breakfast
+                    </button>
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="drinks">
-                Drinks
-            </button>
+                    <button id="lunch"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Lunch
+                    </button>
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="dinner">
-                Dinner
-            </button>
+                    <button id="drinks"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Drinks
+                    </button>
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="dessert">
-                Dessert
-            </button>
+                    <button id="dinner"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Dinner
+                    </button>
 
-            <button class="category-btn border border-yellow-400 px-5 py-2 rounded-full font-medium hover:bg-yellow-400 hover:text-white duration-300" id="salad">
-                Salad
-            </button>
+                    <button id="dessert"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Dessert
+                    </button>
 
-        </div>
+                    <button id="salad"
+                        class="category-btn border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-black duration-300">
+                        Salad
+                    </button>
 
-        <!-- Search -->
-        <div class="flex w-full lg:w-[420px]">
+                </div>
 
-            <input
-                id="search"
-                type="text"
-                placeholder="Search your favorite food..."
-                class="flex-1 px-5 py-3 bg-slate-800 border border-gray-600 rounded-l-full outline-none focus:border-yellow-400"
-            >
+                <!-- Search -->
 
-            <button
-                id="searchBtn"
-                class="px-6 py-3 bg-yellow-400 text-black rounded-r-full font-semibold hover:bg-yellow-500 duration-300">
-                Search
-            </button>
+                <div class="flex w-full lg:w-[420px]">
+
+                    <input id="search" type="text" placeholder="Search your favorite food..."
+                        class="flex-1 px-5 py-3 bg-slate-800 border border-gray-600 rounded-l-full outline-none focus:border-yellow-400">
+
+                    <button id="searchBtn"
+                        class="px-6 py-3 bg-yellow-400 text-black rounded-r-full font-semibold hover:bg-yellow-500 duration-300">
+                        Search
+                    </button>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </div>
+        <!-- ================= Menu ================= -->
 
-</div>
-
-            <!-- Menu Cards -->
-<div id="menu-container" class="max-w-7xl mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-<!-- 
-<div class="group bg-slate-900 border border-slate-700 rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-yellow-400 hover:shadow-2xl hover:shadow-yellow-500/20">
-
-    
-    <div class="relative overflow-hidden">
-        <img
-            src="https://placehold.co/400x300?text=Aloo+Paratha"
-            alt="Aloo Paratha"
-            class="w-full h-52 object-cover transition-all duration-700 group-hover:scale-110"
-        >
-
-        
-        <span class="absolute top-3 left-3 bg-yellow-400 text-black text-xs font-semibold px-3 py-1 rounded-full">
-            Breakfast
-        </span>
-    </div>
-
-    
-    <div class="p-5">
-
-        <h3 class="text-xl font-bold text-white group-hover:text-yellow-400 transition-colors duration-300">
-            Aloo Paratha
-        </h3>
-
-        <p class="mt-2 text-sm text-gray-400 leading-6 line-clamp-2">
-            Crispy flatbread stuffed with flavorful mashed potatoes and traditional spices.
-        </p>
-
-        <div class="flex justify-between items-center mt-5">
-
-            <span class="text-2xl font-bold text-yellow-400">
-                Rs. 280
-            </span>
-
-            <button
-                class="px-5 py-2 rounded-full bg-yellow-400 text-black font-semibold transition-all duration-300 hover:bg-white hover:scale-105 active:scale-95">
-                Add +
-            </button>
+        <div id="menu-container"
+            class="max-w-7xl mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
         </div>
 
-    </div>
-
-</div> -->
-</div>
-        
     </section>
 
+    <!-- ================= Floating View Cart ================= -->
+
+    <div id="viewCartBar" class="view-cart-bar">
+
+        <div class="cart-left">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <div>
+
+                <h3>View Cart</h3>
+
+                <span id="cartItemsCount">0 Items</span>
+
+            </div>
+
+        </div>
+
+        <button onclick="goToCart()">
+
+            View Cart
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+    <!-- ================= Footer ================= -->
+
     <footer class="text-center py-8 text-gray-500">
-    © 2026 FoodFun | Made with by Abdullah Azeem
+
+        © 2026 FoodFun | Made by Abdullah Azeem
+
     </footer>
 
-    <script src="data.js"> </script>
+    <!-- ================= Scripts ================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="data.js"></script>
+
     <script src="app.js"></script>
 
 </body>
+
 </html>
