@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFun | Checkout</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>
+            <i class="fa-solid fa-utensils"></i>
+            FoodFun Checkout
+        </h1>
+
+    </header>
+
+    <!-- ================= CONTAINER ================= -->
+
+    <section class="checkout-container">
+
+        <!-- LEFT -->
+
+        <div class="checkout-form">
+
+            <h2>
+                <i class="fa-solid fa-user"></i>
+                Customer Information
+            </h2>
+
+            <form id="checkoutForm">
+
+                <div class="input-box">
+
+                    <label>Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                    >
+
+                </div>
+
+
+                <div class="input-box">
+
+                    <label>Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="03XXXXXXXXX"
+                    >
+
+                </div>
+
+
+                <div class="input-box">
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="example@gmail.com"
+                    >
+
+                </div>
+
+
+                <div class="input-box">
+
+                    <label>Address</label>
+
+                    <textarea
+                        id="address"
+                        rows="4"
+                        placeholder="Enter your delivery address"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="double">
+
+                    <div class="input-box">
+
+                        <label>City</label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Karachi"
+                        >
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label>Area</label>
+
+                        <input
+                            type="text"
+                            id="area"
+                            placeholder="North Nazimabad"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- PAYMENT -->
+
+                <div class="payment">
+
+                    <h3>
+
+                        <i class="fa-solid fa-credit-card"></i>
+
+                        Payment Method
+
+                    </h3>
+
+
+                    <label class="radio">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Cash on Delivery"
+                            checked
+                        >
+
+                        Cash on Delivery
+
+                    </label>
+
+
+                    <label class="radio">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="JazzCash"
+                        >
+
+                        JazzCash
+
+                    </label>
+
+
+                    <label class="radio">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="EasyPaisa"
+                        >
+
+                        EasyPaisa
+
+                    </label>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    id="placeOrderBtn"
+                >
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    Place Order
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="order-summary">
+
+            <h2>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Order Summary
+
+            </h2>
+
+            <div id="cartItems">
+
+                <!-- JS -->
+
+            </div>
+
+            <div class="summary-box">
+
+                <div class="summary-row">
+
+                    <span>Subtotal</span>
+
+                    <span id="subtotal">
+                        Rs.0
+                    </span>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>Delivery</span>
+
+                    <span>
+                        Rs.200
+                    </span>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>GST (5%)</span>
+
+                    <span id="tax">
+                        Rs.0
+                    </span>
+
+                </div>
+
+
+                <hr>
+
+                <div class="summary-row total">
+
+                    <span>Total</span>
+
+                    <span id="grandTotal">
+                        Rs.0
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="checkout.js"></script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-// ===================== Targets =====================
+// ===================== TARGETS =====================
 
 const cartContainer = document.getElementById("cart-items");
 const emptyCart = document.getElementById("empty-cart");
@@ -11,13 +11,11 @@ const orderBtn = document.getElementById("orderBtn");
 
 const DELIVERY_FEE = 150;
 
-
-// ===================== Get Cart =====================
+// ===================== GET CART =====================
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-
-// ===================== Render Cart =====================
+// ===================== DISPLAY CART =====================
 
 function displayCart() {
 
@@ -85,17 +83,18 @@ function displayCart() {
         </div>
 
         `;
+
     });
 
     totalItems.innerHTML = items;
+
     totalPrice.innerHTML = `Rs. ${total + DELIVERY_FEE}`;
 
 }
 
 displayCart();
 
-
-// ===================== Increase =====================
+// ===================== INCREASE =====================
 
 function increase(index) {
 
@@ -105,8 +104,7 @@ function increase(index) {
 
 }
 
-
-// ===================== Decrease =====================
+// ===================== DECREASE =====================
 
 function decrease(index) {
 
@@ -123,9 +121,7 @@ function decrease(index) {
     updateCart();
 
 }
-
-
-// ===================== Remove =====================
+// ===================== REMOVE ITEM =====================
 
 function removeItem(index) {
 
@@ -157,11 +153,11 @@ function removeItem(index) {
 
                 icon: "success",
 
-                title: "Removed",
+                title: "Removed!",
 
                 text: "Item removed successfully.",
 
-                timer: 1200,
+                timer: 1500,
 
                 showConfirmButton: false
 
@@ -173,8 +169,7 @@ function removeItem(index) {
 
 }
 
-
-// ===================== Update Cart =====================
+// ===================== UPDATE CART =====================
 
 function updateCart() {
 
@@ -184,8 +179,7 @@ function updateCart() {
 
 }
 
-
-// ===================== Checkout =====================
+// ===================== CHECKOUT BUTTON =====================
 
 checkoutBtn.addEventListener("click", () => {
 
@@ -197,32 +191,9 @@ checkoutBtn.addEventListener("click", () => {
 
             title: "Cart Empty",
 
-            text: "Please add some food first."
+            text: "Please add some food first.",
 
-        });
-
-        return;
-
-    }
-
-    window.location.href = "../Checkout/index.html";
-
-});
-
-
-// ===================== Place Order =====================
-
-orderBtn.addEventListener("click", () => {
-
-    if (cart.length === 0) {
-
-        Swal.fire({
-
-            icon: "warning",
-
-            title: "Cart Empty",
-
-            text: "Please add items before placing an order."
+            confirmButtonColor: "#f97316"
 
         });
 
@@ -234,19 +205,69 @@ orderBtn.addEventListener("click", () => {
 
         icon: "success",
 
-        title: "Order Placed!",
+        title: "Proceed to Checkout",
 
-        text: "Thank you for ordering with FoodFun.",
+        text: "You will be redirected to the checkout page.",
 
-        confirmButtonColor: "#f97316"
+        timer: 1500,
+
+        showConfirmButton: false
 
     }).then(() => {
 
-        localStorage.removeItem("cart");
+        window.location.href = "../Checkout/index.html";
 
-        cart = [];
+    });
 
-        displayCart();
+});
+
+// ===================== ORDER BUTTON =====================
+
+orderBtn.addEventListener("click", () => {
+
+    if (cart.length === 0) {
+
+        Swal.fire({
+
+            icon: "warning",
+
+            title: "Cart Empty",
+
+            text: "Please add some food first.",
+
+            confirmButtonColor: "#f97316"
+
+        });
+
+        return;
+
+    }
+
+    Swal.fire({
+
+        icon: "question",
+
+        title: "Ready to Checkout?",
+
+        text: "Click Continue to proceed.",
+
+        showCancelButton: true,
+
+        confirmButtonText: "Continue",
+
+        cancelButtonText: "Cancel",
+
+        confirmButtonColor: "#f97316",
+
+        cancelButtonColor: "#6b7280"
+
+    }).then((result) => {
+
+        if (result.isConfirmed) {
+
+            window.location.href = "../Checkout/index.html";
+
+        }
 
     });
 
