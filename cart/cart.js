@@ -215,7 +215,7 @@ checkoutBtn.addEventListener("click", () => {
 
     }).then(() => {
 
-        window.location.href = "../Checkout/index.html";
+        window.location.href = "./Checkout/index.html";
 
     });
 
