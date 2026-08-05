@@ -215,7 +215,7 @@ checkoutBtn.addEventListener("click", () => {
 
     }).then(() => {
 
-        window.location.href = "./Checkout/index.html";
+        window.location.href = "../Checkout/index.html";
 
     });
 
@@ -265,7 +265,7 @@ orderBtn.addEventListener("click", () => {
 
         if (result.isConfirmed) {
 
-            window.location.href = "../Checkout/index.html";
+            window.location.href = "../checkout/index.html";
 
         }
 
