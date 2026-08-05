@@ -151,7 +151,7 @@ function searchFood() {
 
 }
 
-// ======================= ADD TO CART =======================
+// =================== ADD TO CART =======================
 
 function addCart(productName) {
 
